@@ -21,7 +21,7 @@ export const fetchCards = async () => {
             ${data.name} 
             </div>
           <div class="card-body">
-          <img src="${Bear}" class="card-img-top" alt="...">
+          <img src="${Bear}" width="50px" class="card-img-top" alt="...">
           <h5 class="card-title" data-email="${data.email}">${data.email}</h5>
           <h5 class="card-title" data-phone="${data.phone}">${data.phone}</h5>
           <button class="btn btn-danger" data-id="${data.id}" data-name="${data.name}" data-phone="${data.phone}" data-email= "${data.email}" onclick="editCard(this)" >Edit</button>
@@ -36,7 +36,7 @@ export const fetchCards = async () => {
             ${data.name} 
             </div>
           <div class="card-body">
-          <img src="${Dog}" class="card-img-top" alt="...">
+          <img src="${Dog}" width="50px" class="card-img-top" alt="...">
           <h5 class="card-title" data-email="${data.email}">${data.email}</h5>
           <h5 class="card-title" data-phone="${data.phone}">${data.phone}</h5>
           <button class="btn btn-danger" data-id="${data.id}" data-name="${data.name}" data-phone="${data.phone}" data-email= "${data.email}" onclick="editCard(this)" >Edit</button>
